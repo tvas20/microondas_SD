@@ -1,8 +1,4 @@
 
-// Embarcados - Use como quiser e de os creditos
-// Exemplo de implementacao de um contador binario crescente mod 10, 
-// reset sincrono, reset nivel baixo e transicao positiva do clock
-// Caio Alonso - 05/02/2016
  
 module div (divs, clk, reset, count);
  
