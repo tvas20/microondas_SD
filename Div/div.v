@@ -1,5 +1,3 @@
-
- 
 module div (divs, clk, reset, count);
  
     input clk, reset;
