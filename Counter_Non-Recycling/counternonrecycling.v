@@ -4,10 +4,12 @@ module counternonrecycling (clk, rst, q);
 
     always @(posedge clk or negedge rst) begin
       if (rst == 1'b0)
-      q <= 4'b0000;
-      else if (q == 4'b0111)
-      q <= 4'b0000;
+        q <= 4'b0000;
+      else if (q == 4'b0111) begin
+        q <= 4'b0000;
+        $stop;
+      end
       else
-      q <= q + 1;
+        q <= q + 1;
     end
 endmodule
