@@ -44,7 +44,7 @@ begin
          dv = 1'b0;
          end
     else begin
-         B = 4'b1111;
+         B = 4'bXXXX;
          dv = 1'b1; 
          end
 end   
